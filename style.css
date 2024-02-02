@@ -1,0 +1,28 @@
+body {
+    /* https://cssgradient.io/gradient-backgrounds/ */
+    background-color: #37c12a;
+    background-image: linear-gradient(180deg, #37c12a 0%, #00630a 100%);
+}
+
+
+
+/* --- Scrollbar --- */
+/* Width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: #105007;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000000;
+}
+  
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #032200;
+}
